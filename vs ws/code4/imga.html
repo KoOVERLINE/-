@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>이미지 a 태그 입니다.</title>
+    </head>
+
+    <body>
+
+        <!-- 이미지 a 케이스 -->
+        <div>
+            <a href="https://www.python.org/">
+                <img src="https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/python-1.png" alt="파이썬 로고"/>
+            </a>
+        </div>
+
+        <!-- 이미지 a 케이스2 -->
+        <div id="imgcase">
+            <img src="https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/python-1.png" alt="파이썬 로고"/>            
+        </div>
+
+        <!-- 자바스크립트로 페이지 이동 -->
+        <script>
+                var item = document.getElementById("imgcase");
+
+                // 클릭 이벤트
+                item.onclick = function(){
+                    console.log("클릭이벤트 시작");
+                    
+                    // 무브
+                    location.href = "https://www.python.org/";
+                }
+            </script>
+    </body>
+</html>
