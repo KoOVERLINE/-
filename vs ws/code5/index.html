@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <mata charset="utf-8"/>
+        <title>인라인, 블록요소</title>
+    </head>
+    <body>
+
+        <!-- 블럭 요소 -->
+        <!-- div, address, ol, p, h1 ~ h6, ul, li, dl, dt, area, dd등이 있다 -->
+        <!-- 특징  1.줄바꿈 속성이 있다, 2.블록 요소를 포함할 수 없다, 3.인라인 요소를 포함할 수 있다. -->
+        <div class="block_item_case">
+            <h1>h1입니다</h1>
+            <p>p입니다</p>
+        </div>
+
+
+        <!-- 인라인 요소 -->
+        <!-- q, em, addr, acronym, strong, sup, sub, img, a, map, area, span 등이 있다. -->
+        <!-- 특징 1.줄바꿈 속성이 없다, 2.블럭 요소를 포함할 수는 없으며, 인라인 요소는 포함할 수 있다. -->
+        <div class="inline_item_case">
+            <a href="">a태그 입니다.</a>
+            <a href="">a태그 입니다.</a>
+
+            <p>
+                <a href="">p태그 안에 a태그 포함</a>
+            </p>
+            <a href=""><p>권장하지 않는 표현</p></a>
+
+            <a href=""><a href="">a안에a</a></a>
+        </div>
+    </body>
+</html>
